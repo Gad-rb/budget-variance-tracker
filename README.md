@@ -8,6 +8,24 @@ This project simulates a monthly budget-variance tracking and reporting workflow
 - **Analysis** — Cross-referenced Budget (VLOOKUP) and Actual (INDEX/MATCH) values, variance $ and %, a status classification (Over Budget / Under Budget / On Track at a ±5% threshold), and color-coded flags.
 - **Summary Dashboard** — SUMIFS-based rollup by category with a grand total, a 12-month trend table, and a Budget vs. Actual chart.
 
+## Screenshots
+
+### Summary Dashboard
+![Summary Dashboard](screenshots/dashboard.png)
+
+### Variance Flags (Analysis tab)
+![Variance Flags](screenshots/analysis-flags.png)
+
+### Cross-Referencing Formulas
+VLOOKUP (Budget lookup by category):
+![VLOOKUP formula](screenshots/formula-vlookup.png)
+
+INDEX/MATCH (Actual lookup by month + category):
+![INDEX MATCH formula](screenshots/formula-indexmatch.png)
+
+### Raw Data
+![Raw Data](screenshots/raw-data.png)
+
 ## Skills demonstrated
 - VLOOKUP vs. INDEX/MATCH (and when each is the right tool — left-to-right lookup vs. any-direction lookup)
 - SUMIFS for pivot-style aggregation
